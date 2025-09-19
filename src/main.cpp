@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "logger.h"
+
 using std::cout; using std::cin; using std::endl;
 
 int main(int argc, char* argv[]) {
@@ -62,5 +63,8 @@ int main(int argc, char* argv[]) {
     }
 
     // TODO: Free memory!
+    delete[] values;
+    delete[] labels;
+
     return 0;
 }

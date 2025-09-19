@@ -2,6 +2,9 @@
 #include <string>
 #include <iostream>
 
+using std::cout;
+using std::endl;
+
 // ======================= TODOs =======================
 
 void addReading(const std::string& label, double value,
